@@ -1,5 +1,8 @@
 ---
-
+import "../styles/style.css"
+import Card from "../components/Card.astro";
+import Navigation from "../components/Navigation.astro";
+import Button from "../components/button.astro";
 ---
 
 <html lang="en">
@@ -11,6 +14,19 @@
 		<title>Astro</title>
 	</head>
 	<body>
+		<Navigation />
 		<h1>Astro</h1>
+		<main>
+<Button variant="primary" size="small">TEXT</Button>
+<Button variant="secondary" size="medium">TEXT</Button>
+<Button variant="secondary" size="large">TEXT</Button>
+
+		<!-- 	<Card header="Hej Verden"> 
+				<img src="/testerbillede.jpg" alt="testerbillede">
+				<button>klik her</button>
+			</Card>
+			
+			</article> -->
+		</main>
 	</body>
 </html>
